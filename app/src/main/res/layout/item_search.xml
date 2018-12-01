@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/search_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f9f7f7">
+            <TextView
+                android:id="@+id/item_title"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="自己喝水"
+                android:textSize="20sp"
+                android:textColor="#2b2b2b"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10sp" />
+            <TextView
+                android:id="@+id/item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10sp"
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:textColor="#545353"
+                android:lineSpacingExtra="3dp"
+                tools:text="梦见自己喝水，水是生命的源泉，梦中出现此物往往暗示着人的健康状况。喝清水意味着身体强壮结实;喝非常甜的饮品则意味着身体会遭受疾病的困扰."
+                android:layout_marginStart="10sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

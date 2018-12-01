@@ -57,7 +57,7 @@ public class SearchActivity extends AppCompatActivity implements DreamerSearchCo
         linearLayout = findViewById(R.id.search_no);
     }
 
-    // 初始化rv
+    // 初始化recyclerview
     private void initRV(){
         LinearLayoutManager linearLayout = new LinearLayoutManager(this);
         linearLayout.setOrientation(LinearLayoutManager.VERTICAL);
@@ -66,6 +66,7 @@ public class SearchActivity extends AppCompatActivity implements DreamerSearchCo
         recyclerView.setAdapter(searchAdapter);
     }
 
+    // 重写view的方法
     @SuppressLint("CheckResult")
     @Override
     public void onError() {
